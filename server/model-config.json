@@ -34,5 +34,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Hikes": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "FavoriteHikes": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "AppUsers": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
