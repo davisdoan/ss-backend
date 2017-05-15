@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "FavoriteHikes": {
+      "type": "hasMany",
+      "model": "FavoriteHikes",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
